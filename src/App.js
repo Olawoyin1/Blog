@@ -6,6 +6,7 @@ import Header from './Pages/Header';
 import Hero from './Pages/Hero';
 import Ads from './Pages/Ads.jsx';
 import Featured from './Pages/Featured.jsx';
+import Footer from './Pages/Footer.jsx';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Hero />
       <Ads />
       <Featured />
+      <Ads />
+      <Footer />
     </div>
   );
 }
