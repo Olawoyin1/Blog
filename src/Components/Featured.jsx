@@ -9,34 +9,34 @@ const Featured = () => {
     
   return (
     <div className="featured">
-      <div class="latest py-2 py-sm-5">
-        <div class="container2">
-          <h4 class="h-text fw-bold">Latest Post</h4>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
+      <div className="latest py-2 py-sm-5">
+        <div className="container2">
+          <h4 className="h-text fw-bold">Latest Post</h4>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
         
             {/* <!-- ==========Grid Item Starts Here========= --> */}
 
             {
                 Posts.slice(0, 5).map((item) => {
                     return (
-                        <div class="col mt-3 ps-0">
-                            <div class="blog-image">
+                        <div key={item.id} className="col mt-3 ps-0">
+                            <div className="blog-image">
                                 <img src={item.image} alt="" />
                             </div>
-                            <div class="content p-3 d-flex flex-column gap-3">
-                                <small class="badge bg-primary d-inline-flex">{item.category}</small>
-                                <h6 class="fw-bold">{item.title}</h6>
-                                <div class="author d-flex align-items-center justify-content-between">
-                                <div class="author-about">
+                            <div className="content p-3 d-flex flex-column gap-3">
+                                <small className="badge bg-primary d-inline-flex">{item.category}</small>
+                                <a href={`posts/${item.id}`} className="fw-bold text-dark">{item.title}</a>
+                                <div className="author d-flex align-items-center justify-content-between">
+                                <div className="author-about">
                                     <img
                                     src="./images/profile.jpeg"
-                                    class="author-image"
+                                    className="author-image"
                                     alt=""
                                     />
-                                    <small class="name">{item.author}</small>
+                                    <small className="name">{item.author}</small>
                                 </div>
-                                <div class="created">
-                                    <small class="text-muted">August 20, 2024</small>
+                                <div className="created">
+                                    <small className="text-muted">August 20, 2024</small>
                                 </div>
                                 </div>
                             </div>
@@ -52,30 +52,30 @@ const Featured = () => {
           <div className="lifestyle my-5">
             <div className="cat-header d-flex align-items-center justify-content-between">
               <h4 className="fw-bold">Lifestyle</h4>
-              <a href="blog" class="view-all" >view all <IoIosArrowRoundForward /></a>
+              <a href="blog" className="view-all" >view all <IoIosArrowRoundForward /></a>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
               {
                 lifestyle.slice(0, 5).map((item) => {
                   return (
-                      <div class="col mt-3 ps-0">
-                          <div class="blog-image">
+                      <div key={item.id} className="col mt-3 ps-0">
+                          <div className="blog-image">
                               <img src={item.image} alt="" />
                           </div>
-                          <div class="content p-3 d-flex flex-column gap-3">
-                              <small class="badge bg-primary d-inline-flex">{item.category}</small>
-                              <h6 class="fw-bold">{item.title}</h6>
-                              <div class="author d-flex align-items-center justify-content-between">
-                              <div class="author-about">
+                          <div className="content p-3 d-flex flex-column gap-3">
+                              <small className="badge bg-primary d-inline-flex">{item.category}</small>
+                              <a href={`posts/${item.id}`} className="fw-bold text-dark">{item.title}</a>
+                              <div className="author d-flex align-items-center justify-content-between">
+                              <div className="author-about">
                                   <img
                                   src="./images/profile.jpeg"
-                                  class="author-image"
+                                  className="author-image"
                                   alt=""
                                   />
-                                  <small class="name">{item.author}</small>
+                                  <small className="name">{item.author}</small>
                               </div>
-                              <div class="created">
-                                  <small class="text-muted">August 20, 2024</small>
+                              <div className="created">
+                                  <small className="text-muted">August 20, 2024</small>
                               </div>
                               </div>
                           </div>
@@ -91,30 +91,30 @@ const Featured = () => {
           <div className="lifestyle my-5">
             <div className="cat-header d-flex align-items-center justify-content-between">
               <h4 className="fw-bold">Technology</h4>
-              <a href="blog" class="view-all" >view all <IoIosArrowRoundForward /></a>
+              <a href="blog" className="view-all" >view all <IoIosArrowRoundForward /></a>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
               {
                 technology.slice(0, 5).map((item) => {
                   return (
-                      <div class="col mt-3 ps-0">
-                          <div class="blog-image">
+                      <div key={item.id} className="col mt-3 ps-0">
+                          <div className="blog-image">
                               <img src={item.image} alt="" />
                           </div>
-                          <div class="content p-3 d-flex flex-column gap-3">
-                              <small class="badge bg-primary d-inline-flex">{item.category}</small>
-                              <h6 class="fw-bold">{item.title}</h6>
-                              <div class="author d-flex align-items-center justify-content-between">
-                              <div class="author-about">
+                          <div className="content p-3 d-flex flex-column gap-3">
+                              <small className="badge bg-primary d-inline-flex">{item.category}</small>
+                              <a href={`posts/${item.id}`} className="fw-bold text-dark">{item.title}</a>
+                              <div className="author d-flex align-items-center justify-content-between">
+                              <div className="author-about">
                                   <img
                                   src="./images/profile.jpeg"
-                                  class="author-image"
+                                  className="author-image"
                                   alt=""
                                   />
-                                  <small class="name">{item.author}</small>
+                                  <small className="name">{item.author}</small>
                               </div>
-                              <div class="created">
-                                  <small class="text-muted">August 20, 2024</small>
+                              <div className="created">
+                                  <small className="text-muted">August 20, 2024</small>
                               </div>
                               </div>
                           </div>

@@ -1,6 +1,6 @@
 const Posts = [
     {
-        id: 1,
+        id: '1',
         author: 'Olawoyin',
         title: 'The Impact of Technology on the Workplace: How Technology is Changing',
         category: 'Travel',
@@ -8,7 +8,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 2,
+        id: '2',
         author: 'Olawoyin',
         title: 'The Impact of Technology on the Workplace: How Technology is Changing',
         category: 'Sports',
@@ -16,7 +16,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 3,
+        id: '3',
         author: 'Olawoyin',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Sports",
@@ -24,7 +24,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 4,
+        id: '4',
         author: 'Olawoyin',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         image: '../images/blog4.jpg',
@@ -32,7 +32,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 5,
+        id: '5',
         author: 'Olawoyin',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Sports",
@@ -40,7 +40,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 6,
+        id: '6',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Travel",
@@ -48,7 +48,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 7,
+        id: '7',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Technology",
@@ -56,7 +56,7 @@ const Posts = [
         description: 'Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you',
     },
     {
-        id: 8,
+        id: '8',
         author: 'Olawoyin',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Technology",
@@ -65,7 +65,7 @@ const Posts = [
         
     },
     {
-        id: 9,
+        id: '9',
         author: 'Olawoyin',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Economy",
@@ -74,7 +74,7 @@ const Posts = [
         
     },
     {
-        id: 10,
+        id: '10',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "Technology",
@@ -83,7 +83,7 @@ const Posts = [
         
     },
     {
-        id: 11,
+        id: '11',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "lifesyle",
@@ -92,7 +92,7 @@ const Posts = [
         
     },
     {
-        id: 12,
+        id: '12',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "lifestyle",
@@ -101,7 +101,7 @@ const Posts = [
         
     },
     {
-        id: 13,
+        id: '13',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "sports",
@@ -110,7 +110,7 @@ const Posts = [
         
     },
     {
-        id: 14,
+        id: '14',
         author: 'Gbolahan',
         title: "The Impact of Technology on the Workplace: How Technology is Changing",
         category: "lifestyle",

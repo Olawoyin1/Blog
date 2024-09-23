@@ -6,7 +6,7 @@ const Header = () => {
     <header>
     <div className="container2">
       <div className="d-flex header align-items-center justify-content-between">
-        <div className="logo fw-bold">Blog</div>
+        <a href='/' className="logo navbar-brand fw-bold">Blog</a>
         <form action="" className="form">
           <CiSearch className='icon' />
           <input type="search" placeholder="Search Post..." className="search" name="" id="" />
