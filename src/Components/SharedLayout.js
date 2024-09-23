@@ -6,6 +6,8 @@ import Header from "./Header";
 const SharedLayout = ({ openNav, setOpenNav, modal, setModal }) => {
   return (
     <>
+
+    
       <Header />
       <Outlet />
       <Footer />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { CiSearch } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,11 +13,11 @@ const Header = () => {
           <input type="search" placeholder="Search Post..." className="search" name="" id="" />
         </form>
         <ul className="navbar d-none d-sm-flex p-0 m-0 align-items-center gap-4">
-          <li><a className="nav-link m-0 " href="/">Home</a></li>
-          <li><a className="nav-link m-0 " href="blog">Blog</a></li>
-          <li><a className="nav-link m-0 " href="category">Author</a></li>
-          <li><a className="nav-link m-0 " href="register">signup</a></li>
-          <li><a className="nav-link m-0 " href="register">Login</a></li>
+          <li><Link className='nav-link' to="/">Home</Link></li>
+          <li><Link className='nav-link' to="/posts">Blog</Link></li>
+          <li><Link className='nav-link' to="/author">Author</Link></li>
+          <li><Link className='nav-link' to="/register">Signup</Link></li>
+          <li><Link className='nav-link' to="/register">Login</Link></li>
           
         </ul>
       </div>

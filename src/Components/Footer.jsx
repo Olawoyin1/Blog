@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -20,25 +21,25 @@ const Footer = () => {
             <div className="col-lg-2 ps-0 mt-3  text-sm-start">
               <h6 className="fw-bold">Category</h6>
               <ul className="p-0 d-flex flex-column gap-2 mt-3">
-                <li><a className="nav-link m-0 " href="category">Lifestyle</a></li>
-                <li><a className="nav-link m-0 " href="category">Technology</a></li>
-                <li><a className="nav-link m-0 " href="category">Blog</a></li>
-                <li><a className="nav-link m-0 " href="category">Travel</a></li>
-                <li><a className="nav-link m-0 " href="category">Business</a></li>
-                <li><a className="nav-link m-0 " href="category">Economy</a></li>
-                <li><a className="nav-link m-0 " href="category">Sports</a></li>
+                <li><Link className='nav-link' to="/posts">Lifestyle</Link></li>
+                <li><Link className='nav-link' to="/posts">Technology</Link></li>
+                <li><Link className='nav-link' to="/posts">Blog</Link></li>
+                <li><Link className='nav-link' to="/posts">Travel</Link></li>
+                <li><Link className='nav-link' to="/posts">Business</Link></li>
+                <li><Link className='nav-link' to="/posts">Economy</Link></li>
+                <li><Link className='nav-link' to="/posts">Sports</Link></li>
               </ul>
             </div>
 
             <div className="col-lg-2 ps-0 mt-3 text-sm-start">
                 <h6 className="fw-bold">Quick Links</h6>
                 <ul className="p-0 d-flex flex-column gap-2 mt-3">
-                  <li><a className="nav-link m-0 " href="/">Home</a></li>
-                  <li><a className="nav-link m-0 " href="/">About</a></li>
-                  <li><a className="nav-link m-0 " href="register">Signup</a></li>
-                  <li><a className="nav-link m-0 " href="/">Archived</a></li>
-                  <li><a className="nav-link m-0 " href="Author">Author</a></li>
-                  <li><a className="nav-link m-0 " href="/">Contact</a></li>
+                  <li><Link className='nav-link' to="/">Home</Link></li>
+                  <li><Link className='nav-link' to="/">About</Link></li>
+                  <li><Link className='nav-link' to="/register">Signup</Link></li>
+                  <li><Link className='nav-link' to="/posts">Archived</Link></li>
+                  <li><Link className='nav-link' to="/author">Author</Link></li>
+                  <li><Link className='nav-link' to="/">Contact</Link></li>
                 </ul>
               </div>
         </div>
