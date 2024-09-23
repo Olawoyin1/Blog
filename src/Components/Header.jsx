@@ -1,4 +1,5 @@
 import React from 'react'
+import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="d-flex header align-items-center justify-content-between">
         <div className="logo fw-bold">Blog</div>
         <form action="" className="form">
-          <i className="uil uil-search"></i>
+          <CiSearch className='icon' />
           <input type="search" placeholder="Search Post..." className="search" name="" id="" />
         </form>
         <ul className="navbar d-none d-sm-flex p-0 m-0 align-items-center gap-4">

@@ -1,5 +1,6 @@
 import React from "react";
 import Posts from "../Data";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Featured = () => {
 
@@ -51,7 +52,7 @@ const Featured = () => {
           <div className="lifestyle my-5">
             <div className="cat-header d-flex align-items-center justify-content-between">
               <h4 className="fw-bold">Lifestyle</h4>
-              <a href="blog" class="view-all" >view all</a>
+              <a href="blog" class="view-all" >view all <IoIosArrowRoundForward /></a>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
               {
@@ -90,7 +91,7 @@ const Featured = () => {
           <div className="lifestyle my-5">
             <div className="cat-header d-flex align-items-center justify-content-between">
               <h4 className="fw-bold">Technology</h4>
-              <a href="blog" class="view-all" >view all</a>
+              <a href="blog" class="view-all" >view all <IoIosArrowRoundForward /></a>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
               {
