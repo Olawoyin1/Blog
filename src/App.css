@@ -158,7 +158,10 @@ small{
   height: 100%;
 }
 
-
+.cat-header .view-all {
+  text-decoration : none;
+  color : #333333 !important;
+}
 
 
 /* ===============FOOTER  STYLES============= */
@@ -183,3 +186,103 @@ footer input {
 }
 
 
+/* ===============SINGLE POST  STYLES============= */
+.lead{
+  font-size: medium !important;
+  line-height: 2;
+}
+
+.post-image img{
+  object-fit: contain;
+  width: 100%;
+}
+
+.comment{
+  position: relative;
+}
+
+.comment::after{
+  content: '';
+  position: absolute ;
+  left: -10px;
+  top: 0;
+  width: 3px;
+  background-color: #E8E8E8;
+  height: 100%;
+
+}
+
+.message-input{
+  width: 100%;
+  outline: none;
+}
+
+
+  /* ===============REGISTER  STYLES============= */
+  .user-reg{
+    min-height: 400px;
+  }
+
+  .reg-image{
+    height: 100%;
+  }
+  
+.reg-image img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.user-reg-form{
+    width: 300px;
+}
+
+.h-user{
+  height: 400px;
+}
+
+.user-reg-form input{
+  border: none;
+  border-bottom: 1px solid #ccc;
+    outline: none !important;
+    padding: 7px 1px;
+}
+
+
+/* ===============REGISTER  STYLES============= */
+.user-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden !important;;
+}
+
+.user-image img{
+  object-fit: cover !important;
+  width: 100%;
+  height: 100%;
+
+}
+
+.recent{
+  background-color: #ffffff;
+  min-height: 200px;
+}
+
+
+.r-header{
+  background-color: #E8E8E8;
+  text-align: center;
+}
+
+
+
+
+
+/* ===============MEDIA QUERY  STYLES============= */
+@media (max-width: 768px) {
+  .container2, .container3{
+      max-width: 94%;
+
+  }
+}

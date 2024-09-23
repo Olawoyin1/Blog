@@ -13,7 +13,7 @@ const Header = () => {
         <ul className="navbar d-none d-sm-flex p-0 m-0 align-items-center gap-4">
           <li><a className="nav-link m-0 " href="/">Home</a></li>
           <li><a className="nav-link m-0 " href="blog">Blog</a></li>
-          <li><a className="nav-link m-0 " href="category">Category</a></li>
+          <li><a className="nav-link m-0 " href="category">Author</a></li>
           <li><a className="nav-link m-0 " href="register">signup</a></li>
           <li><a className="nav-link m-0 " href="register">Login</a></li>
           
