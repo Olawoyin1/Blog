@@ -123,3 +123,17 @@ small{
   width: fit-content;
   font-size: 12px !important;
 }
+
+
+
+
+
+/* ===============ADS STYLES============= */
+
+.ads-box{
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #E8E8E8 !important;
+  text-align: center;
+  padding: 1rem;
+}
