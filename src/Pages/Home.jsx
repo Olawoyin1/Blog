@@ -29,8 +29,8 @@ const Home = () => {
           
           </div>
 
-          <div className="cat-header d-flex align-items-center justify-content-between">
-            <h4 className='fw-bold mt-5'>Technology</h4>
+          <div className="cat-header mt-5 d-flex align-items-center justify-content-between">
+            <h4 className='fw-bold '>Technology</h4>
             <Link className='nav-link' to="/posts">view all  <IoIosArrowRoundForward /></Link>
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">
@@ -48,8 +48,8 @@ const Home = () => {
 
 
             
-          <div className="cat-header d-flex align-items-center justify-content-between">
-            <h4 className='fw-bold mt-5'>Lifestyle</h4>
+          <div className="cat-header mt-5 d-flex align-items-center justify-content-between">
+            <h4 className='fw-bold '>Lifestyle</h4>
             <Link className='nav-link' to="/posts">view all  <IoIosArrowRoundForward /></Link>
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 ">

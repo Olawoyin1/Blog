@@ -1,5 +1,5 @@
 import React from "react";
-import { IoIosArrowRoundForward } from "react-icons/io";
+// import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Featured = ({ data }) => {
