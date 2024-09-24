@@ -13,7 +13,7 @@ const Featured = ({ data }) => {
         <small className="badge bg-primary d-inline-flex">
           {data.category}
         </small>
-        <Link href={`posts/${data.id}`} className="fw-bold text-dark">
+        <Link to={`posts/${data.id}`} className="fw-bold text-dark">
           {data.title}
         </Link>
         <div className="author d-flex align-items-center justify-content-between">
