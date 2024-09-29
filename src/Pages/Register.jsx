@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 
 const Register = () => {
-  const [login, setLogin] = useState(true)
+  // const [login, setLogin] = useState(true)
   return (
     <div class="user-reg py-5">
       <div class="container2">
@@ -13,7 +13,7 @@ const Register = () => {
             </div>
 
 
-              <div class="col-md-6 bg-white d-flex align-items-center justify-content-center">
+              <div class="col-md-6 bg-white d-flex align-items-center justify-content-center p-4">
                  
                 <form action="" class="user-reg-form d-flex flex-column gap-2">
                     <div>

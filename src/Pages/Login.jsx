@@ -12,7 +12,7 @@ const Login = () => {
           </div>
 
 
-            <div class="col-md-6 bg-white d-flex align-items-center justify-content-center">
+            <div class="col-md-6 bg-white d-flex align-items-center justify-content-center p-4">
               
                 <form action="" class="user-reg-form d-flex flex-column gap-2">
                   <div>

@@ -248,7 +248,7 @@ footer input {
 }
 
 .h-user{
-  height: 400px;
+  min-height: 400px;
 }
 
 .user-reg-form input{
