@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="d-flex setwidth gap-5 justify-content-evenly p-0">
             
-            <div className="col-lg-2 ps-0 mt-3  text-sm-start">
+            <div className="col-lg-2 ps-0 mt-3 text-center text-sm-start">
               <h6 className="fw-bold">Category</h6>
               <ul className="p-0 d-flex flex-column gap-2 mt-3">
                 <li><Link className='nav-link' to="/posts">Lifestyle</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-lg-2 ps-0 mt-3 text-sm-start">
+            <div className="col-lg-2 ps-0 mt-3 text-center  text-sm-start">
                 <h6 className="fw-bold">Quick Links</h6>
                 <ul className="p-0 d-flex flex-column gap-2 mt-3">
                   <li><Link className='nav-link' to="/">Home</Link></li>
