@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Featured = ({ data }) => {
 
   return (
-    <div key={data.id} className="col mt-3 ps-0">
+    <div key={data.id} className="col mt-3 ps-0 pe-0 pe-sm-3">
       <div className="blog-image">
         <img src={data.image} alt="" />
       </div>
@@ -13,11 +13,11 @@ const Featured = ({ data }) => {
         <small className="badge bg-primary d-inline-flex">
           {data.category}
         </small>
-        <Link to={`posts/${data.id}`} className="fw-bold text-dark">
+        <Link to={`/posts/${data.id}`} className="fw-bold text-dark">
           {data.title}
         </Link>
         <div className="author d-flex align-items-center justify-content-between">
-          <div className="author-about">
+          <div className="author-about d-flex gap-2 align-items-center">
             <img src="./images/profile.jpeg" className="author-image" alt="" />
             <small className="name">{data.author}</small>
           </div>

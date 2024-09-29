@@ -16,6 +16,7 @@ import Blog from "./Pages/Blog.jsx";
 import BlogLayout from "./Components/BlogLayout.js";
 import Author from "./Pages/Author.jsx";
 import Slider from "./AnimatedRoute.jsx";
+import Login from "./Pages/Login.jsx";
 
 const main = createBrowserRouter(
   createRoutesFromElements(
@@ -25,7 +26,7 @@ const main = createBrowserRouter(
       <Route path="author" element={<Author />} />
       <Route path="sign-up" element={<Register />} />
       <Route path="register" element={<Register />} />
-      <Route path="slider" element={<Slider />} />
+      <Route path="login" element={<Login />} />
       
       <Route path="posts" element={<BlogLayout />}>
         <Route

@@ -35,10 +35,10 @@ const Footer = () => {
                 <h6 className="fw-bold">Quick Links</h6>
                 <ul className="p-0 d-flex flex-column gap-2 mt-3">
                   <li><Link className='nav-link' to="/">Home</Link></li>
-                  <li><Link className='nav-link' to="/">About</Link></li>
-                  <li><Link className='nav-link' to="/register">Signup</Link></li>
-                  <li><Link className='nav-link' to="/posts">Archived</Link></li>
-                  <li><Link className='nav-link' to="/author">Author</Link></li>
+                  <li><Link className='nav-link' to="/login">Login</Link></li>
+                  <li><Link className='nav-link' to="register">Signup</Link></li>
+                  <li><Link className='nav-link' to="posts">Archived</Link></li>
+                  <li><Link className='nav-link' to="author">Author</Link></li>
                   <li><Link className='nav-link' to="/">Contact</Link></li>
                 </ul>
               </div>
